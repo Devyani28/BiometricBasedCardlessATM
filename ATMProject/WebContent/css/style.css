@@ -1,0 +1,100 @@
+#mainPanel {
+	float: left;
+	height: 40vh;
+	border: 5px outset lightgrey;
+	width: 66%;
+	padding: 1%;
+	display: flex;
+	align-items: center;
+}
+
+#panelImg {
+	/* main panel */
+	height: inherit;
+	width: 100%;
+	opacity: 0.7;
+}
+
+#rightPanel {
+	float: right;
+	height: 96vh;
+	border-width: 0 0 4px 4px;
+	border: 4px inset lightgrey;
+	width: 29%;
+}
+
+#atmImg {
+	height: inherit;
+	width: 100%;
+}
+
+
+#buttonPanel {
+	/* box */
+	float: left;
+	margin-top: 5px;
+	height: 51vh;
+	border: 5px outset lightgrey;
+	width: 68%;
+}
+
+#buttonTable {
+	height: inherit;
+	width: inherit;
+	margin-top: 2vh;
+}
+
+td button {
+	/* height: 6vh;
+            width:16vw; */
+	height: fit-content;
+	width: fit-content;
+	padding: 5px;
+	margin: 2.5px;
+	text-align: center;
+	border: 4px outset lightgrey;
+}
+
+.noBtnImg {
+	height: 8vh;
+	width: 14vw;
+}
+
+.input {
+	background: transparent;
+	height: 5vh;
+	border: 2px inset #fff;
+	color: #fff;
+	font-size: 2vw;
+}
+
+.biometricTable {
+	/* border: 3px solid #fff;  */
+	color: #fff;
+	margin: auto;
+	transform: translateY(8%);
+	text-align: center;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.optionPanel button{
+	background: transparent; 
+	color: #fff; 
+	margin: 2vw; 
+	font-size: 2vw;
+	cursor: pointer;
+	font-size: 2vw;
+	text-align:right;
+	padding-right:4px;
+	margin:2vw;
+}
+
+.transactionStatusPanel .optionPanel{
+	display:flex;
+	justify-content: space-between;
+}
+.transactionStatusPanel .optionPanel p{
+	font-size:2.2vw;
+	
+}

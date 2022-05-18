@@ -1,0 +1,227 @@
+body {
+  color: #000000d0;
+  /* font-size: 14px; */
+}
+header {
+  background-image: linear-gradient(#fff 50%, #87ceeb);
+    height: fit-content;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerLogo {
+  height: 20vh;
+  width: 10%;
+}
+h1 {
+  margin-left: 25px;
+  color: #9e1c40;
+  font-size: 7vh;
+}
+
+ul {
+  margin: 3vh auto;
+  text-align: center;
+  width: 80%;
+}
+li {
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  line-height: 3em;
+  font-weight: bold;
+  border-radius: 2em;
+  background: #9e1c40;
+  margin: 0 2em;
+  display: inline-block;
+  color: #fff;
+  position: relative;
+}
+
+li::before {
+  content: "";
+  position: absolute;
+  top: 1.3em;
+  left: -5em;
+  height: 0.25em;
+  width: 5em;
+  background: #9e1c40;
+  z-index: -1;
+}
+
+li:first-child::before {
+  display: none;
+}
+
+.active {
+  background: #9e1c40;
+  font-weight: bold;
+}
+
+.active ~ li {
+  background: rgb(190, 186, 186);
+}
+
+.active ~ li::before {
+  background: rgb(190, 186, 186);
+}
+span {
+  color: rgb(214, 25, 25);
+  font-size: 20px;
+}
+.container {
+  margin: auto 10vw;
+}
+fieldset,
+table {
+  width: inherit;
+}
+td {
+  width: 32%;
+}
+input,
+select {
+  margin: 5px auto;
+  border: none;
+  border-bottom: 1px solid #00000069;
+  padding: 5px;
+  width: 80%;
+}
+input:focus {
+  outline: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  width: 7%;
+  height: 7vh;
+  float: right;
+  border-radius: 20%;
+  color: #fff;
+  background-color: #9e1c40;
+  margin-right: 5vw;
+  padding: auto 6px;
+  border: 5px solid #9e1c40;
+}
+/* .photo {
+  border: 2px solid blue;
+  width: 40%;
+  height: 42vh;
+  margin: auto;
+} */
+/* .photo header {
+  height: 7vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  flex-direction: row;
+} */
+.col {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+}
+.fa-camera-retro {
+cursor: pointer;
+  margin-left: 5px;
+  color: rgb(0, 255, 0);
+}
+.fa-trash {
+	cursor: pointer;
+  margin-right: 5px;
+  color: rgb(255, 0, 0);
+}
+footer {
+  height: 4vh;
+  /* border: none; */
+  width: auto;
+  border-top: 2px solid #000;
+  display: flex;
+  align-items: center;
+}
+.progressBorder {
+  width: 70%;
+  margin: auto;
+  height: 2.5vh;
+  background-color: #b1aeae;
+}
+
+.middleText p:first-child {
+  background-color: #0f0;
+  border-radius: 20%;
+  width: 120%;
+  text-align: center;
+  font-size: 3vh;
+}
+.middleText p:last-child {
+  background-color: rgb(255, 51, 0);
+  border-radius: 20%;
+  width: 120%;
+  text-align: center;
+  font-size: 3vh;
+}
+
+.aadharCard {
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid #000;
+  height: 38vh;
+  border-radius: 30px;
+}
+.aadharCard header {
+  height: 7vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  flex-direction: row;
+}
+.aadharMiddleMsg {
+  margin: auto;
+  width: 28vw;
+  text-align: center;
+}
+.userAadharInfo {
+  height: 28vh;
+  text-align: center;
+}
+.userAadharInfo div {
+  height: 23vh;
+  display: flex;
+}
+.userAadharInfo img {
+  border: 2px solid #000;
+  height: 19vh;
+  border-radius: 20px;
+  width: 12vw;
+  margin: 10px;
+}
+.aadharCard p {
+  text-align: left;
+}
+
+.aadharCard footer {
+  height: 4vh;
+  border: none;
+  justify-content: center;
+  font-size: 20px;
+  border-top: 2px solid red;
+  text-align: center;
+}
